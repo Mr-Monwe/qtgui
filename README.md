@@ -4,7 +4,7 @@ The main competition GUI interface for Veronica. It contains all competition mod
 
 All modes are stored as a list in a combobox and all the logic is stored in the change_dropdown function. 
 
-_For the **full high level overview** of each mode, go to the **[wiki](https://github.com/waynerobotics/veronica/wiki)**._
+_For the **full high level overview** of each mode, go to the **[wiki](https://github.com/waynerobotics/veronica/wiki/Software)**._
 
 <p>&nbsp;</p> 
 
