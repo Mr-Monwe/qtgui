@@ -21,4 +21,4 @@ _For the **full high level overview** of each mode, go to the **[wiki](https://g
 
 <p>&nbsp;</p>
 
-![Screengrab](screengrab.png)
+![Screengrab](https://github.com/Mr-Monwe/qtgui/blob/main/screengrab.PNG)
