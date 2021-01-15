@@ -8,17 +8,17 @@ _For the **full high level overview** of each mode, go to the **[wiki](https://g
 
 <p>&nbsp;</p> 
 
-| Mode                 | Description                                |
-| -------------------- | ------------------------------------------ |
-| Main Competition     | Launch robot on competition track          |
-| Lane Mode            | Test lane following                        |
-| Speed Mode           | Test the robot's average speed             |
-| Obstacle Mode        | Test obstacle avoidance                    |
-| Waypoint Mode        | Test waypoint following                    |
-| Init Param Server    | Initialize veronica's parameter server     |
-| Status Check         | Check the health status of the robot       |
-| Kill All             | Kill all active nodes & shutdown the robot |
+| Mode              | Description                                |
+| ----------------- | ------------------------------------------ |
+| Main Competition  | Launch robot on competition track          |
+| Lane Mode         | Test lane following                        |
+| Speed Mode        | Test the robot's average speed             |
+| Obstacle Mode     | Test obstacle avoidance                    |
+| Waypoint Mode     | Test waypoint following                    |
+| Init Param Server | Initialize veronica's parameter server     |
+| Status Check      | Check the health status of the robot       |
+| Kill All          | Kill all active nodes & shutdown the robot |
 
 <p>&nbsp;</p>
 
-![Screengrab](https://github.com/Mr-Monwe/qtgui/blob/main/screengrab.PNG)
+![GIF](screen.gif)

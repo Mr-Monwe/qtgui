@@ -61,7 +61,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
-    
+
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate(
@@ -117,10 +117,11 @@ class Ui_MainWindow(object):
             system("killall -9 rosmaster")
             time.sleep(0.5)
             print("All Nodes Down!")
-            self.close
+            sys.exit()
         else:
             pass
- #Clean
+ # Clean
+
 
 if __name__ == "__main__":
     import sys
