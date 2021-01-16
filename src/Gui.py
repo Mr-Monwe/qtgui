@@ -84,6 +84,8 @@ class Ui_MainWindow(object):
         text = str(self.dropdown.currentText())
         if text == 'Main Competition':
             # TODO: Fix Main Comp launch pipeline
+            subprocess.Popen(["gnome-terminal", "-e", "roscore"])
+            time.sleep(1.0)
             subprocess.Popen(["roslaunch", "lane_follower",
                               "lane_follower_bag.launch"])
             print("Main Competition")
@@ -131,5 +133,6 @@ if __name__ == "__main__":
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())
+
 
 # CMD pipeline (pyuic5 -x Gui.ui -o Gui.py)
